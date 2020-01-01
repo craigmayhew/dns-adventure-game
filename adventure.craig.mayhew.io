@@ -20,3 +20,9 @@ vpn                      60 A     203.0.113.3
 webapp                   60 A     203.0.113.10
 webapp                   60 A     203.0.113.11
 www                   43200 CNAME adventure.craig.mayhew.io.
+
+start                  3600 TXT   "It's 9am. You pull out your chair, sit down, login and prepare for one last shift before retirement."
+                                  "9am1 to check your emails. 9am2 to check your phone. 9am3 to logout and make a coffee."
+9am1                   3600 TXT   "You notice an unusual email. Someone on night shift made a DNS change."
+9am2                   3600 TXT   "You notice a text message from monitoring services."
+9am3                   3600 TXT   "You make a coffee, and as you stare off into the distance, you realise you don't care for your final pay check. You leave the kettle boiling, walk out the building, never to return. Congratulations you have won the game."
