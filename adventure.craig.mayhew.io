@@ -15,10 +15,10 @@ $ORIGIN adventure.craig.mayhew.io.
                        3600 MX    30 mail.example.com.
                          60 A     1.1.1.1
                        3600 TXT   "v=spf1 mail.adventure.craig.mayhew.io ~all"
-mail                  14400 A     203.0.113.5
-vpn                      60 A     203.0.113.3
-webapp                   60 A     203.0.113.10
-webapp                   60 A     203.0.113.11
+mail                  14400 A     203.0.113.5     ; 203.0.113.0/24 is TEST-NET-3 and not publicly assigned
+vpn                      60 A     203.0.113.3     ; 203.0.113.0/24 is TEST-NET-3 and not publicly assigned
+webapp                   60 A     203.0.113.10    ; 203.0.113.0/24 is TEST-NET-3 and not publicly assigned
+webapp                   60 A     203.0.113.11    ; 203.0.113.0/24 is TEST-NET-3 and not publicly assigned
 www                   43200 CNAME adventure.craig.mayhew.io.
 
 start                  3600 TXT   "It's 9am. You pull out your chair, sit down, login and prepare for one last shift before retirement."
