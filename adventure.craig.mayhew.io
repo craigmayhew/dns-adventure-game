@@ -1,19 +1,19 @@
 $ORIGIN adventure.craig.mayhew.io.
-@                      3600 SOA   ns1.awsexamplednsserver.net. (
-                              zone-admin.awsexamplednsserver.com.     ; address of responsible party
-                              1111222233                 ; serial number
-                              3600                       ; refresh period
-                              600                        ; retry period
-                              604800                     ; expire time
-                              1800                     ) ; minimum ttl
-                      86400 NS    ns1.awsexamplednsserver.net.
-                      86400 NS    ns2.awsexamplednsserver.net.
-                      86400 NS    ns3.awsexamplednsserver.net.
-                      86400 NS    ns4.awsexamplednsserver.net.
-                       3600 MX    10 mail.example.com.
-                       3600 MX    20 vpn.example.com.
-                       3600 MX    30 mail.example.com.
-                         60 A     1.1.1.1
+@                      3600 SOA   ns-236.awsdns-29.com. (
+                              awsdns-hostmaster.amazon.com.  ; address of responsible party
+                              1                              ; serial number
+                              7200                           ; refresh period
+                              900                            ; retry period
+                              1209600                        ; expire time
+                              86400                        ) ; minimum ttl
+                      86400 NS    ns-236.awsdns-29.com.
+                      86400 NS    ns-730.awsdns-27.net.
+                      86400 NS    ns-1738.awsdns-25.co.uk.
+                      86400 NS    ns-1327.awsdns-37.org.
+                       3600 MX    10 mail.adventure.craig.mayhew.io.
+                       3600 MX    20 vpn.adventure.craig.mayhew.io.
+                       3600 MX    30 mail.adventure.craig.mayhew.io.
+                         60 A     203.0.113.11    ; 203.0.113.0/24 is TEST-NET-3 and not publicly assigned
                        3600 TXT   "v=spf1 mail.adventure.craig.mayhew.io ~all"
 mail                  14400 A     203.0.113.5     ; 203.0.113.0/24 is TEST-NET-3 and not publicly assigned
 vpn                      60 A     203.0.113.3     ; 203.0.113.0/24 is TEST-NET-3 and not publicly assigned
