@@ -13,7 +13,7 @@ You now have a `go` command to start your adventure! Type the following:
 ```sh
 go start
 ```
-You are then given some story, and choices. Choose one e.g. `go 9am1`
+You are then given some story, and choices. Choose one e.g. `go make-coffee`
 
 ## Why?
 I needed an excuse to manipulate zone files via CI/CD. I also like the idea of using DNS to distribute/store data beyond it's intended purpose.
