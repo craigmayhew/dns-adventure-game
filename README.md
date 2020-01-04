@@ -4,10 +4,12 @@ You are the lone sysadmin. Keep everything online until 5pm.
 Access the game on linux by pasting the following into your command line and hitting enter:
 ```sh
 go() {
-    dig -t txt +short $(echo $1).adventure.craig.mayhew.io @ns-236.awsdns-29.com
+    IN=$(dig -t txt +short $(echo $1).adventure.craig.mayhew.io @ns-236.awsdns-29.com)
+    IFS='"' read -ra ADDR <<< "$IN"
+    for i in "${ADDR[@]}"; do echo $i done
 }
 ```
-You now have a god command to start your adventure! Type the following:
+You now have a `go` command to start your adventure! Type the following:
 ```sh
 go start
 ```
