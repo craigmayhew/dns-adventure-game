@@ -1,0 +1,19 @@
+language: minimal
+before_install:
+  - sudo apt-get update
+before_script:
+  # we need cli53 to import hosted zone files because it's easier that writing a whole bunch of code to do it
+  - curl -L https://github.com/barnybug/cli53/releases/latest/download/cli53-linux-amd64
+  - sudo mv cli53-linux-amd64 /usr/local/bin/cli53
+  - sudo chmod +x /usr/local/bin/cli53
+script:
+  # Note: HOSTED_ZONE_ID needs to be set as an environment variable
+  - |
+    cli53 import --file adventure.craig.mayhew.io --replace --wait --dry-run adventure.craig.mayhew.io
+
+
+notifications:
+  email:
+    on_failure: always
+    on_success: never
+
