@@ -31,6 +31,7 @@ webapp                   60 A     203.0.113.20    ; 203.0.113.0/24 is TEST-NET-3
 www                   43200 CNAME adventure.craig.mayhew.io.
 
 start                   300 TXT   "It's 9am. You pull out your chair, sit down, login and prepare for one last shift before retirement." "'check-email' to check your emails." "'check-phone' to check your phone." "'coffee' to logout and make a coffee."
+
 check-email             300 TXT   "You notice an unusual email. It looks like someone on night shift said they made a DNS change." "'read-email' to see what what possesed them to make a manual DNS change in the middle of the night"
 read-email              300 TXT   "You click on the email titled DNS Updated. Simon was on night shift and is writing to let you know he replaced a faulty server last night and added 203.0.113.20 to the DNS. He confirmed it was recieving traffic."
 check-phone             300 TXT   "You notice an urgent text message from the monitoring services." "'read-phone-message' to read text message in detail."
@@ -40,4 +41,5 @@ fix-monitoring-alert    300 TXT   "You think it's interesting that the monitorin
 coffee                   30 TXT   "You go make a coffee, as the kettle boils you stare off into the distance. You realise you don't care enough to stick around for your final pay check. You walk away from the sound of a boiling kettle, walk past your desk and keep walking. You walk out the building, never to return. Congratulations you are no longer playing the game."
 coffee                   30 TXT   "You go make a coffee, as the kettle boils you hear commotion from people standing around you desk. It appears in the moments you were away your computer mysteriously caught fire. Without a workstation, and as it's your last day, HR let you go home early. You are no longer playing the game."
 coffee                   30 TXT   "You go make a coffee, only to find there is none. Realising the futility of attempting to function without a minimum of 30mg of caffeine sloshing around your blood stream, you walk out the building. You are no longer playing the game."
+
 end                     300 TXT   "The end is 5pm. Be patient, retirement awaits."
