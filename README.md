@@ -16,7 +16,7 @@ go start
 You are then given some story, and choices. Choose one e.g. `go 9am1`
 
 ## Why?
-I needed an excuse to manipulate zone files via CI/CD. I also like the idea of using DNS to store/cache data beyond it's intended purpose.
+I needed an excuse to manipulate zone files via CI/CD. I also like the idea of using DNS to distribute/store data beyond it's intended purpose.
 
 ## TODO
  - [x] CD pipeline
