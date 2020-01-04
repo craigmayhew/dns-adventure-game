@@ -44,3 +44,5 @@ make-coffee              30 TXT   "You go make a coffee, as the kettle boils you
 make-coffee              30 TXT   "You go make a coffee, only to find there is none. Realising the futility of attempting to function without a minimum of 30mg of caffeine sloshing around your blood stream, you walk out the building. You are no longer playing the game."
 
 end                     300 TXT   "The end is 5pm. Be patient, retirement awaits."
+
+retire                  300 TXT   "You sail off into the sunset, as eventually, will everything you have ever built."
