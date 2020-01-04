@@ -1,6 +1,13 @@
 # dns-adventure-game
 You are the lone sysadmin. One day to retirement. Keep everything online until 5pm.
 
+<p align="center">
+  <br>
+  <img alt="DNS Adventure" src="https://raw.githubusercontent.com/craigmayhew/dns-adventure-game/master/demo.gif" width="80%">
+  <br>
+  <br>
+</p>
+
 Access the game on linux by pasting the following into your command line and hitting enter:
 ```sh
 go() {
