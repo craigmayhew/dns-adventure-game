@@ -3,7 +3,7 @@ before_install:
   - sudo apt-get update
 before_script:
   # we need cli53 to import hosted zone files because it's easier that writing a whole bunch of code to do it
-  - curl -L https://github.com/barnybug/cli53/releases/latest/download/cli53-linux-amd64
+  - curl -L https://github.com/barnybug/cli53/releases/latest/download/cli53-linux-amd64 --output cli53-linux-amd64
   - sudo mv cli53-linux-amd64 /usr/local/bin/cli53
   - sudo chmod +x /usr/local/bin/cli53
 script:
