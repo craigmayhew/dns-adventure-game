@@ -8,6 +8,8 @@ You are the lone sysadmin. One day to retirement. Keep everything online until 5
   <br>
 </p>
 
+## Installation
+
 Access the game on linux by pasting the following into your command line and hitting enter:
 ```sh
 go() {
