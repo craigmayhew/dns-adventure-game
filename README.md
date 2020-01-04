@@ -19,10 +19,8 @@ You are then given some story, and choices. Choose one e.g. `go 9am1`
 I needed an excuse to manipulate zone files via CI/CD. I also like the idea of using DNS to store/cache data beyond it's intended purpose.
 
 ## TODO
- - [ ] CD pipeline
+ - [x] CD pipeline
  - [ ] Actual story
  - [x] Instructions
- - [ ] Production and public release
-
-
+ - [x] Public release
 
