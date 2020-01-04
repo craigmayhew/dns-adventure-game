@@ -1,5 +1,5 @@
 # dns-adventure-game
-You are the lone sysadmin. Keep everything online until 5pm.
+You are the lone sysadmin. One day to retirement. Keep everything online until 5pm.
 
 Access the game on linux by pasting the following into your command line and hitting enter:
 ```sh
@@ -16,7 +16,7 @@ go start
 You are then given some story, and choices. Choose one e.g. `go make-coffee`
 
 ## Why?
-I needed an excuse to manipulate zone files via CI/CD. I also like the idea of using DNS to distribute/store data beyond it's intended purpose.
+I needed an excuse to manage DNS from zone files via CI/CD. I also like the idea of using DNS to distribute/store data beyond it's intended purpose.
 
 ## TODO
  - [x] CD pipeline
