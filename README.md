@@ -24,3 +24,26 @@ I needed an excuse to manipulate zone files via CI/CD. I also like the idea of u
  - [x] Instructions
  - [x] Public release
 
+## Notes to myself
+Permissions in use for CI
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "route53:ChangeResourceRecordSets",
+                "route53:GetChange",
+                "route53:ListResourceRecordSets"
+            ],
+            "Resource": "arn:aws:route53:::hostedzone/ZONEFILEIDGOESHERE"
+        },
+        {
+            "Effect": "Allow",
+            "Action": "route53:ListHostedZonesByName",
+            "Resource": "*"
+        }
+    ]
+}
+```
