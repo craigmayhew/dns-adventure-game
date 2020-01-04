@@ -32,6 +32,7 @@ www                   43200 CNAME adventure.craig.mayhew.io.
 
 start                   300 TXT   "It's 9am. You pull out your chair, sit down, login and prepare for one last shift before retirement." "go check-email to check your emails." "go check-phone to check your phone." "go make-coffee to logout and make a coffee."
 
+; act 1
 check-email             300 TXT   "You notice an unusual email. It looks like someone on night shift said they made a DNS change." "go read-email to see what what possesed them to make a manual DNS change in the middle of the night"
 read-email              300 TXT   "Simon was on night shift and is writing to let you know he replaced a faulty server last night and added 203.0.113.20 to the webapp DNS. He confirmed it was recieving traffic OK and went to bed. *Ding* Another email arrives." "read-monitoring-email to see what un-ending joy this brings."
 check-phone             300 TXT   "You notice an urgent text message from the monitoring services." "go read-phone-message to read text message in detail."
@@ -42,6 +43,14 @@ fix-monitoring-alert    300 TXT   "You think it's interesting that the monitorin
 make-coffee              30 TXT   "You go make a coffee, as the kettle boils you stare off into the distance. You realise you don't care enough to stick around for your final pay check. You walk away from the sound of a boiling kettle, walk past your desk and keep walking. You walk out the building, never to return. Congratulations you are no longer playing the game."
 make-coffee              30 TXT   "You go make a coffee, as the kettle boils you hear commotion from people standing around you desk. It appears in the moments you were away your computer mysteriously caught fire. Without a workstation, and as it's your last day, HR let you go home early. You are no longer playing the game."
 make-coffee              30 TXT   "You go make a coffee, only to find there is none. Realising the futility of attempting to function without a minimum of 30mg of caffeine sloshing around your blood stream, you walk out the building. You are no longer playing the game."
+
+; act 2
+afternoon               300 TXT   "After grabbing lunch you settle into your chair only to realise everyone is walking towards you. It seems everyones laptops are asking for bitcoin."
+switch-dns              300 TXT   "After a moments thought you begin switching everyones DNS over to 9.9.9.9, IBM's antiphishing, antimalware, DNSSEC enabled servers. The next sysadmin will thank you."
+
+; act 3
+late-afternoon          300 TXT   "The spoofed emails have gotten worse, much worse. It looks like this has been going on for months."
+fix-spf                 300 TXT   "You remove the offending domain, inspect the SPF record one last time and hit save. Finally you can retire." "You win the game" "go retire"
 
 end                     300 TXT   "The end is 5pm. Be patient, retirement awaits."
 
