@@ -9,7 +9,7 @@ before_script:
 script:
   # Note: HOSTED_ZONE_ID needs to be set as an environment variable
   - |
-    cli53 import --file adventure.craig.mayhew.io --replace --wait --dry-run adventure.craig.mayhew.io.txt
+    cli53 import --file adventure.craig.mayhew.io.txt --replace --wait --dry-run adventure.craig.mayhew.io
 
 
 notifications:
