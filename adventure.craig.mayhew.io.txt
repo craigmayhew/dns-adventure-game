@@ -21,7 +21,10 @@ webapp                   60 A     203.0.113.10    ; 203.0.113.0/24 is TEST-NET-3
 webapp                   60 A     203.0.113.11    ; 203.0.113.0/24 is TEST-NET-3 and not publicly assigned
 www                   43200 CNAME adventure.craig.mayhew.io.
 
-start                  3600 TXT   "It's 9am. You pull out your chair, sit down, login and prepare for one last shift before retirement." "9am1 to check your emails." "9am2 to check your phone." "9am3 to logout and make a coffee."
-9am1                   3600 TXT   "You notice an unusual email. It looks like someone on night shift said they made a DNS change."
-9am2                   3600 TXT   "You notice a text message from the monitoring services."
-9am3                   3600 TXT   "You make a coffee, and as you stare off into the distance, you realise you don't care for your final pay check. You leave the kettle boiling, walk out the building, never to return. Congratulations you have won the game."
+start                  3600 TXT   "It's 9am. You pull out your chair, sit down, login and prepare for one last shift before retirement." "'check-email' to check your emails." "'check-phone' to check your phone." "'coffee' to logout and make a coffee."
+check-email            3600 TXT   "You notice an unusual email. It looks like someone on night shift said they made a DNS change." "'read-email' to see what what possesed them to make a manual DNS change in the middle of the night"
+read-email             3600 TXT   "You click on the email titled DNS Updated. Simon was on night shift and is writing to let you know he replaced a faulty server last night and added 203.0.113.20 to the DNS. He confirmed it was recieving traffic."
+check-phone            3600 TXT   "You notice an urgent text message from the monitoring services." "'read-phone-message' to read text message in detail."
+read-phone-message     3600 TXT   "It appears the monitoring alerts are flipping from green to red, and back again. Everything is fine for 20 minutes then it goes red for 2 mins. This has been going on for hours, why didn't you notice?!" "'fix-monitoring-alert' to try and figure out what is causing this sparadic error."
+check-servers          3600 TXT   "You login to aws, but all the servers are online and green. You notice one has only been online for 3 hours. You ssh into the server, but the server seems fine. You lean back and think what could cause this." "'check-email' to check your email inbox."
+fix-monitoring-alert   3600 TXT   "You think it's interesting that the monitoring seems to be ok for about 18 minutes, and then is down for 2. You remember there are 10 servers and wonder if perhaps one of them is down" "'check-servers' to see if the servers are all online."
