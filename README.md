@@ -1,5 +1,5 @@
 # dns-adventure-game
-You are the lone sysadmin. One day to retirement. Keep everything online until 5pm.
+You are the lone sysadmin. One day to retirement. You have one job. Keep everything online until 5pm.
 
 <p align="center">
   <br>
