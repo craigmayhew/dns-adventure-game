@@ -31,7 +31,7 @@ DNS is a mystic art to many, and this is a fun (and somewhat meta) way of learni
 ## DNS Features Used
 **Spoilers are written in this section**
 
-We use [Round-robin DNS](https://en.wikipedia.org/wiki/Round-robin_DNS) for the chance based actions. e.g. `go make-coffee` and `go high5` that have any many possible outcomes.
+We use [Round-robin DNS](https://en.wikipedia.org/wiki/Round-robin_DNS) for the chance based actions. e.g. `go make-coffee` and `go high5` that have many possible outcomes.
 
 [Round-robin DNS](https://en.wikipedia.org/wiki/Round-robin_DNS) is also used for the load balancer in the story line.
 
