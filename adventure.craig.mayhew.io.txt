@@ -14,7 +14,7 @@ $ORIGIN adventure.craig.mayhew.io.
                        3600 MX    20 vpn.adventure.craig.mayhew.io.
                        3600 MX    30 mail.adventure.craig.mayhew.io.
                          60 A     203.0.113.11    ; 203.0.113.0/24 is TEST-NET-3 and not publicly assigned
-                       3600 TXT   "v=spf1 mail.adventure.craig.mayhew.io ~all"
+                       3600 TXT   "v=spf1 mail.oldemailprovider.net mail.newemailprovider.net -all"
 mail                  14400 A     203.0.113.5     ; 203.0.113.0/24 is TEST-NET-3 and not publicly assigned
 vpn                      60 A     203.0.113.3     ; 203.0.113.0/24 is TEST-NET-3 and not publicly assigned
 webapp                   60 A     203.0.113.10    ; 203.0.113.0/24 is TEST-NET-3 and not publicly assigned
