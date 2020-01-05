@@ -26,7 +26,7 @@ go start
 You are then given some story, and choices. Choose one e.g. `go make-coffee`
 
 ## Why?
-I needed an excuse to manage DNS from zone files via CI/CD. I also like the idea of using DNS to distribute/store data. It's a text only CDN.
+DNS is a mystic art to many, and this is a fun (and somewhat meta) way of learning about it. It was also a good excuse to show how to [manage DNS from zone files via CI/CD](.travis.yml).
 
 ## DNS Features Used
 **Spoilers are written in this section**
