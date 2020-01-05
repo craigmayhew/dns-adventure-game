@@ -27,7 +27,7 @@ go start
 You are then given some story, and choices. Choose one e.g. `go make-coffee`
 
 ## Why?
-I needed an excuse to manage DNS from zone files via CI/CD. I also like the idea of using DNS to distribute/store data beyond it's intended purpose.
+I needed an excuse to manage DNS from zone files via CI/CD. I also like the idea of using DNS to distribute/store data. It's a text only CDN.
 
 ## TODO
  - [x] CD pipeline
