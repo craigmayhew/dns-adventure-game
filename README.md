@@ -9,7 +9,7 @@ You are the lone sysadmin. One day to retirement. You have one job. Keep everyth
 </p>
 
 ## Linux / Mac Installation
-Access the game on linux by pasting the following into your command line and hitting enter:
+Access the game on linux by pasting the following 7 line "game engine" into your command line and hitting enter:
 ```sh
 go() {
     IN=$(dig -t txt +short $(echo $1).adventure.craig.mayhew.io @ns-236.awsdns-29.com)
