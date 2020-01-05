@@ -83,5 +83,6 @@ spf-missing             300 TXT   "You were really sure something was missing, b
 spf-remains             300 TXT   "You don't use oldemailprovider.net anymore, you moved to cloud email provider last year! Someone must have somehow managed to setup and email account on your old email provider. What a lot of effort to go to?!" "go fix-spf to remove the old hosting provider."
 fix-spf                 300 TXT   "You remove the offending domain and curse whoever must have screwed this up when we moved email provider." "Then you remember that particular someone was you. You decide that's enough action for your final day on the job. You walk out the door bang on 5pm and begin your retirement." "You win the game" "go retire"
 
+; FUTURE QUESTS
 ; git-bisect
-; spider plant
+; crypto
