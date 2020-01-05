@@ -45,6 +45,7 @@ We use [Round-robin DNS](https://en.wikipedia.org/wiki/Round-robin_DNS) for the 
 ## TODO
  - DMARC
  - DNSSEC
+ - Act 2 needs a lot more content
 
 ## UX Feedback
 Thank you if you have contacted me with feedback.
