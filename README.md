@@ -15,7 +15,7 @@ go() {
     IN=$(dig -t txt +short $(echo $1).adventure.craig.mayhew.io @ns-236.awsdns-29.com)
     IFS='"' read -ra ADDR <<< "$IN"
     for i in "${ADDR[@]}"; do
-        echo $i
+        echo "$i"
     done
 }
 ```
