@@ -8,8 +8,7 @@ You are the lone sysadmin. One day to retirement. Keep everything online until 5
   <br>
 </p>
 
-## Installation
-
+## Linux / Mac Installation
 Access the game on linux by pasting the following into your command line and hitting enter:
 ```sh
 go() {
@@ -34,3 +33,7 @@ I needed an excuse to manage DNS from zone files via CI/CD. I also like the idea
  - [ ] Actual story
  - [x] Instructions
  - [x] Public release
+
+## FAQ
+ - Q: How can I play on windows?
+ - A: You need the `dig` command. [Install chocolatey](https://chocolatey.org/install) and paste the following into an elevated powershell `choco install bind-toolsonly`
