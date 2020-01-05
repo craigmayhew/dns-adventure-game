@@ -35,7 +35,7 @@ We use [Round-robin DNS](https://en.wikipedia.org/wiki/Round-robin_DNS) for the 
 
 [Round-robin DNS](https://en.wikipedia.org/wiki/Round-robin_DNS) is also used for the load balancer in the story line.
 
-[DNS Blocking](https://en.wikipedia.org/wiki/DNS_blocking) as a security and privacy feature appears in the second act. [SPF TXT](https://en.wikipedia.org/wiki/Sender_Policy_Framework) also makes an appearance.
+[DNS Blocking](https://en.wikipedia.org/wiki/DNS_blocking) as a security and privacy feature appears in the second act. The importance of an accurate [SPF TXT](https://en.wikipedia.org/wiki/Sender_Policy_Framework) record also makes an appearance.
 
 
 ## FAQ
