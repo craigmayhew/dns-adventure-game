@@ -41,3 +41,9 @@ We use [Round-robin DNS](https://en.wikipedia.org/wiki/Round-robin_DNS) for the 
 ## FAQ
  - Q: How can I play on windows?
  - A: You need the `dig` command. [Install chocolatey](https://chocolatey.org/install) and paste the following into an elevated powershell `choco install bind-toolsonly`
+
+## TODO
+ - DMARC
+ - DNSSEC
+ - ASCII ART ô¿ô
+ 
