@@ -45,4 +45,9 @@ We use [Round-robin DNS](https://en.wikipedia.org/wiki/Round-robin_DNS) for the 
 ## TODO
  - DMARC
  - DNSSEC
- 
+
+## UX Feedback
+Thank you if you have contacted me with feedback.
+Feedback collected:
+ - "There are not enough options"
+ - "I feel like I'm not really given enough plausable options. I feel like you are just telling me a story."
