@@ -28,6 +28,17 @@ You are then given some story, and choices. Choose one e.g. `go make-coffee`
 ## Why?
 I needed an excuse to manage DNS from zone files via CI/CD. I also like the idea of using DNS to distribute/store data. It's a text only CDN.
 
+## DNS Features Used
+**Spoilers are written in this section**
+
+We use [Round-robin DNS](https://en.wikipedia.org/wiki/Round-robin_DNS) for the chance based actions. e.g. `go make-coffee` and `go high5` that have any many possible outcomes.
+
+[Round-robin DNS](https://en.wikipedia.org/wiki/Round-robin_DNS) is also used for the load balancer in the story line.
+
+[DNS Blocking](https://en.wikipedia.org/wiki/DNS_blocking) as a security and privacy feature appears in the second act.
+
+[SPF TXT](https://en.wikipedia.org/wiki/Sender_Policy_Framework) feature in the third act.
+
 
 ## FAQ
  - Q: How can I play on windows?
