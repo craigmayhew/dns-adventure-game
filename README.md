@@ -45,5 +45,4 @@ We use [Round-robin DNS](https://en.wikipedia.org/wiki/Round-robin_DNS) for the 
 ## TODO
  - DMARC
  - DNSSEC
- - ASCII ART ô¿ô
  
