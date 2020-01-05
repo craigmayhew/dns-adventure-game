@@ -84,7 +84,7 @@ spf-remains             300 TXT   "You don't use oldemailprovider.net anymore, y
 fix-spf                 300 TXT   "You remove the offending domain and curse whoever must have screwed this up when we moved email provider." "Then you remember that particular someone was you. You decide that's enough action for your final day on the job. You walk out the door bang on 5pm and begin your retirement." "You win the game" "go retire"
 
 ; act 2 side quest
-browse-git-repos        300 TXT   "You have already deleted most of your code repos from your local machine. Only a few that were close to your heart remain." "git/bind-adblock - an idea you had to block adverts on your computer, but Pi-hole is available now and does a much better job." "git/dns-adventure-game - This crazy idea you had a for a text based adventure game where the storyline is stored in DNS records. What a daft idea, but still you can't bring yourself to delete it. Maybe you could play it, for old times sake..." "go start to start playing the DNS Adventure Game."
+browse-git-repos        300 TXT   "You have already deleted most of your code repos from your local machine. Only a few that were close to your heart remain." "git/bind-adblock - an idea you had to block adverts on your computer, but Pi-hole is available now and does a much better job." "git/dns-adventure-game - This crazy idea you had for a text based adventure game where the storyline is stored in DNS records. What a daft idea, but still you can't bring yourself to delete it. Maybe play it one last time, for old times sake..." "go start to start playing the DNS Adventure Game."
 
 ; FUTURE QUESTS
 ; git-bisect
