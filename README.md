@@ -9,6 +9,7 @@ You are the lone sysadmin. One day to retirement. You have one job. Keep everyth
 </p>
 
 ## Linux / Mac Installation
+Make sure you are using the standard shell by typing `sh`. This code may not work in zsh and other shells.
 Access the game on linux by pasting the following 7 line "game engine" into your command line and hitting enter:
 ```sh
 go() {
@@ -41,6 +42,8 @@ We use [Round-robin DNS](https://en.wikipedia.org/wiki/Round-robin_DNS) for the 
 ## FAQ
  - Q: How can I play on windows?
  - A: You need the `dig` command. [Install chocolatey](https://chocolatey.org/install) and paste the following into an elevated powershell `choco install bind-toolsonly`
+ - Q: I see error "go:read2: bad option: -a"
+ - A: Type `sh` to drop out of your chosen shell and follow the install instructions again.
 
 ## TODO
  - DMARC
