@@ -37,8 +37,8 @@ before_script:
 script:
   # Note: HOSTED_ZONE_ID needs to be set as an environment variable
   - |
-    cli53 import --file adventure.craig.mayhew.io.txt --replace --wait --dry-run adventure.craig.mayhew.io
-    cli53 import --file adventure.craig.mayhew.io.txt --replace --wait adventure.craig.mayhew.io
+    cli53 import --file adventure.craig.mayhew.io.zone --replace --wait --dry-run adventure.craig.mayhew.io
+    cli53 import --file adventure.craig.mayhew.io.zone --replace --wait adventure.craig.mayhew.io
 
 
 notifications:
