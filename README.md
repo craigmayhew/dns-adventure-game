@@ -41,7 +41,7 @@ We use [Round-robin DNS](https://en.wikipedia.org/wiki/Round-robin_DNS) for the 
 
 ## FAQ
  - Q: How can I play on windows?
- - A: You need the `dig` command. [Install chocolatey](https://chocolatey.org/install) and paste the following into an elevated powershell `choco install bind-toolsonly`
+ - A: I really recommend installing [Ubuntu via WSL](https://www.microsoft.com/en-gb/search/shop/apps?q=ubuntu). However, if you must use windows, you need the `dig` command. [Install chocolatey](https://chocolatey.org/install) and paste the following into an elevated powershell `choco install bind-toolsonly`
  - Q: I see error "go:read2: bad option: -a"
  - A: Type `sh` to drop out of your chosen shell and follow the install instructions again.
 
