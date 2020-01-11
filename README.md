@@ -13,7 +13,7 @@ Make sure you are using the standard shell by typing `sh`. This code may not wor
 Access the game on linux by pasting the following 7 line "game engine" into your command line and hitting enter:
 ```sh
 go() {
-    IN=$(dig -t txt +short $(echo $1).adventure.craig.mayhew.io @ns-236.awsdns-29.com)
+    IN=$(dig -t txt +short $(echo $1).adventure.craig.mayhew.io @ns-236.awsdns-29.com | shuf -n 1)
     IFS='"' read -ra ADDR <<< "$IN"
     for i in "${ADDR[@]}"; do
         echo "$i"
